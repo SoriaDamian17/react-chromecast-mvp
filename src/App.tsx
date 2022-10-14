@@ -16,7 +16,9 @@ function App() {
 
   return (
     <div className="App">
-      <h1 style={{ color: "#fff" }}>Hello World</h1>
+      <h1 style={{ color: "#fff" }}>
+        {cast.isConnect ? 'Browser Connected' : 'Hello World'}
+      </h1>
       <button className='buttonConnect'
         onClick={handleconnect}
       >
