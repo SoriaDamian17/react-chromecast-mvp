@@ -1,0 +1,18 @@
+.App {
+  background: black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.buttonConnect {
+  background: #7159c1;
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 10px 0 0 0;
+  padding: 1rem;
+  cursor: pointer;
+}
